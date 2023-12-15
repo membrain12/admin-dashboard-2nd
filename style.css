@@ -12,6 +12,9 @@ body {
 
 header {
     grid-area: 1 / 2 / 2 / 3;
+    display: grid;
+    grid-template: 1fr 1.25fr / 2fr 1fr;
+    padding: 2%;
 }
 
 .sidebar {
