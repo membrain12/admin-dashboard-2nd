@@ -115,6 +115,39 @@ button {
     color: white;
     font-weight: bold;
     padding: 5%;
+    display: grid;
+    grid-template-rows: 1.6fr 1fr;
+}
+
+.sidebar-options {
+    display:grid;
+    grid-template-rows: 1.2fr repeat(1fr, 11);
+}
+
+.sidebar-options > .dashboard {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.dashboard {
+    font-size: 1.2rem;
+}
+
+.dashboard > img {
+    height: 50px;
+}
+
+.sidebar-row {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.sidebar-row > img {
+    height: 30px;
 }
 
 main {
