@@ -162,7 +162,8 @@ svg {
 
 main {
     grid-area: 2 / 2 / 3 / 3;
-    grid-template: 1fr 1fr / 5fr 1fr;
+    grid-template: 0.5fr 1fr 1fr / 5fr 1fr;
+    padding: 3%;
 }
 
 
