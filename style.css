@@ -8,7 +8,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: grid;
-    grid-template: 1.5fr 5fr / 1.5fr 5fr;
+    grid-template: 1.25fr 5fr / 1.5fr 5fr;
 }
 
 header {
@@ -53,10 +53,34 @@ input {
 
 .account-info > .account-pic {
     width: max(50px, 100%);
-    height: 75%;
+    height: 70%;
     border: 1px solid #000;
-    padding: ;
+    padding: 1px;
     border-radius: 50%;
+}
+
+.greeting-area {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr 1fr;
+    align-items: center;
+}
+
+.greeting-area > .account-pic {
+    width: 80%;
+    height: 75%;
+}
+
+.greeting-area > .account-pic {
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.small {
+    font-size: .75rem;
+}
+.big {
+    font-size: 1.25rem;
+    font-weight: bold;
 }
 
 .sidebar {
