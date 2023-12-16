@@ -135,7 +135,7 @@ button {
     font-size: 1.2rem;
 }
 
-.dashboard > img {
+.dashboard > svg {
     height: 50px;
 }
 
@@ -148,9 +148,16 @@ button {
 
 .sidebar-row > img {
     height: 30px;
+    fill:white;
+}
+
+svg {
+    fill: white;
+    height: 30px;
 }
 
 main {
     background-color: red;
     grid-area: 2 / 2 / 3 / 3;
 }
+
