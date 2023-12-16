@@ -22,7 +22,6 @@ header {
     display: grid;
     grid-template-columns: 35px 1.75fr .25fr;
     grid-template-rows: 50px;
-    justify-content: center;
     align-items: center;
 }
 
@@ -32,7 +31,7 @@ input {
     background: #ededed;
     border: none;
     padding-left: 10px;
-    width: 100%;
+    width: 125%;
 }
 
 .icon {
