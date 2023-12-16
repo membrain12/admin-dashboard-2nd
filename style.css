@@ -117,6 +117,7 @@ button {
     padding: 5%;
     display: grid;
     grid-template-rows: 1.6fr 1fr;
+    padding-left: 16px;
 }
 
 .sidebar-options {
@@ -133,7 +134,7 @@ button {
 }
 
 .dashboard {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .dashboard > svg {
@@ -163,5 +164,5 @@ main {
     grid-area: 2 / 2 / 3 / 3;
 }
 
-/*have to fix sidebar at smaller screen size other sections overlap it*/
+
 
