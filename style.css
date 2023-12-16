@@ -16,6 +16,7 @@ header {
     display: grid;
     grid-template: 75px 1fr / 2fr 1.5fr;
     padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search-bar {
@@ -160,8 +161,8 @@ svg {
 }
 
 main {
-    background-color: red;
     grid-area: 2 / 2 / 3 / 3;
+    grid-template: 1fr 1fr / 5fr 1fr;
 }
 
 
