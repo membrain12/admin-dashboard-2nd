@@ -166,5 +166,9 @@ main {
     padding: 3%;
 }
 
+.card-icons > svg{
+    fill: black;
+    fill-opacity: 0.7;
+}
 
 
