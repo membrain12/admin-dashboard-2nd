@@ -247,8 +247,22 @@ hr {
 
 .trending-projects {
     grid-area: 3 / 2 / 4 / 3;
-    display: grid;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    gap: 16px;
+    padding: 16px;
     border: 1px solid #000;
+}
+
+.trend {
+    display: flex;
+    gap: 8px;
+    flex: 1;
+}
+
+.info > p {
+    font-size: 0.8rem;
 }
 
 .card-icons > svg{
