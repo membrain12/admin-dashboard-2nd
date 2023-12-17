@@ -203,6 +203,15 @@ main {
     justify-content: space-between;
 }
 
+.card-title {
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.card-summary {
+    font-size: 0.9rem;
+}
+
 .card > .card-icons {
     display: flex;
     justify-content: flex-end;
